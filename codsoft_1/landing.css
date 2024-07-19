@@ -1,0 +1,106 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styles */
+.sec {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Content section styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.textBox {
+    flex: 1;
+    padding-right: 20px; /* Added padding for spacing */
+}
+
+.textBox h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.textBox span {
+    color: #007bff; /* Adjust color as needed */
+}
+
+.textBox p {
+    color: #666;
+    line-height: 1.8;
+}
+
+.textBox a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.textBox a:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}
+
+.imgBox {
+    flex: 1;
+    text-align: center;
+}
+
+.imgBox img.CodSoft {
+    max-width: 100%; /* Ensure image scales responsively */
+    height: auto;
+    max-height: 300px; /* Adjust maximum height as needed */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
